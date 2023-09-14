@@ -10,7 +10,7 @@ public class Task2 {
 
         List<Long> fibonacciSequence = generateFibonacci(n);
 
-        String csvFilePath = "C:\\Users\\santeri\\Desktop\\koko.csv";
+        String csvFilePath = "fibonacci.csv";
 
 
         writeFibonacciToCSV(csvFilePath, fibonacciSequence);
